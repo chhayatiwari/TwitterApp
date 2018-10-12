@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		18197943216FD0710029FB40 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18197942216FD0710029FB40 /* SafariServices.framework */; };
+		1819794521708F700029FB40 /* GCDBlackBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1819794421708F700029FB40 /* GCDBlackBox.swift */; };
 		18E1FC0E216A685E00B9A629 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1FC0D216A685E00B9A629 /* AppDelegate.swift */; };
 		18E1FC10216A685E00B9A629 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E1FC0F216A685E00B9A629 /* ViewController.swift */; };
 		18E1FC13216A685E00B9A629 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E1FC11216A685E00B9A629 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		18197942216FD0710029FB40 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		1819794421708F700029FB40 /* GCDBlackBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDBlackBox.swift; sourceTree = "<group>"; };
 		18E1FC0A216A685E00B9A629 /* TwitterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E1FC0D216A685E00B9A629 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18E1FC0F216A685E00B9A629 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 			children = (
 				18E1FC0D216A685E00B9A629 /* AppDelegate.swift */,
 				18E1FC0F216A685E00B9A629 /* ViewController.swift */,
+				1819794421708F700029FB40 /* GCDBlackBox.swift */,
 				18E1FC11216A685E00B9A629 /* Main.storyboard */,
 				18E1FC14216A686000B9A629 /* Assets.xcassets */,
 				18E1FC16216A686000B9A629 /* LaunchScreen.storyboard */,
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18E1FC10216A685E00B9A629 /* ViewController.swift in Sources */,
+				1819794521708F700029FB40 /* GCDBlackBox.swift in Sources */,
 				18E1FC0E216A685E00B9A629 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

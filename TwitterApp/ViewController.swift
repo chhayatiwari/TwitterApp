@@ -31,8 +31,12 @@ class ViewController: UIViewController {
                         if error == nil {
                             self.userName.text = user?.name
                             self.screenName.text = user?.screenName
-                            print(user?.name, user?.screenName, user?.profileImageLargeURL)
-                            let image = 
+                            guard let urlString = user?.profileImageLargeURL else { return }
+                            guard let url = URL(string: urlString) else { return }
+                            guard let urlData = try? Data(contentsOf: url) else { return }
+                            performUIUpdatesOnMain {
+                                self.profilePicture.image = UIImage(data: urlData)
+                            }
                         }
                     })
                     
